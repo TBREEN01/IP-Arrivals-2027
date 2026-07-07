@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arrivals — July 8</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Archivo:wght@500;700;800&display=swap');
+
+  :root{
+    --board-bg-raised:#0f1f38;
+    --split-line:#1b3358;
+    --amber:#f5b73d;
+    --amber-dim:#9c7628;
+    --green:#3ddc84;
+    --red:#ff5c5c;
+    --blue-grey:#7d93b8;
+    --white:#eef3fb;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:radial-gradient(ellipse at top, #0d1c33 0%, #060d1a 70%);
+    color:var(--white);
+    font-family:'Archivo', sans-serif;
+    padding:28px 20px 60px;
+    min-height:100vh;
+  }
+  .wrap{max-width:980px;margin:0 auto;}
+  header{
+    display:flex; justify-content:space-between; align-items:flex-end;
+    border-bottom:2px solid var(--split-line);
+    padding-bottom:16px; margin-bottom:6px; flex-wrap:wrap; gap:10px;
+  }
+  .eyebrow{
+    font-family:'Space Mono', monospace; font-size:11px; letter-spacing:.22em;
+    color:var(--amber); text-transform:uppercase; margin-bottom:4px;
+  }
+  h1{margin:0; font-size:28px; font-weight:800;}
+  h1 span{color:var(--blue-grey); font-weight:500;}
+  .clock{font-family:'Space Mono', monospace; font-size:13px; color:var(--blue-grey); text-align:right;}
+  .clock .time{color:var(--white); font-size:18px; display:block;}
+
+  .section-label{
+    font-family:'Space Mono', monospace; font-size:11px; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--amber); margin:26px 0 10px;
+    display:flex; align-items:center; gap:10px;
+  }
+  .section-label::after{content:''; flex:1; height:1px; background:var(--split-line);}
+  .section-label.other{color:var(--blue-grey);}
+
+  .board{background:var(--board-bg-raised); border:1px solid var(--split-line); border-radius:6px; overflow:hidden;}
+  .board-head, .row{
+    display:grid; grid-template-columns: .9fr .8fr 1fr 1fr 1.1fr;
+    align-items:center; padding:12px 18px; gap:8px;
+  }
+  .board-head{
+    font-family:'Space Mono', monospace; font-size:10px; letter-spacing:.1em;
+    text-transform:uppercase; color:var(--amber-dim); border-bottom:1px solid var(--split-line);
+  }
+  .row{border-bottom:1px solid var(--split-line); font-family:'Space Mono', monospace; font-size:13px;}
+  .row:last-child{border-bottom:none;}
+  .row:nth-child(even){background:rgba(255,255,255,0.015);}
+  .flight-num{font-weight:700; color:var(--white); font-family:'Archivo',sans-serif; font-size:14px;}
+  .dest{display:block; font-size:10px; color:var(--blue-grey); letter-spacing:.05em; margin-top:2px;}
+
+  .status-pill{
+    display:inline-block; padding:4px 10px; border-radius:20px;
+    font-size:10px; font-weight:700; letter-spacing:.06em; text-transform:uppercase;
+  }
+  .status-ontime{background:rgba(61,220,132,.12); color:var(--green);}
+  .status-delayed{background:rgba(255,92,92,.12); color:var(--red);}
+  .status-landed{background:rgba(125,147,184,.15); color:var(--blue-grey);}
+  .status-unknown{background:rgba(245,183,61,.1); color:var(--amber);}
+  .time-val{color:var(--white);}
+  .time-est{display:block; font-size:10px; color:var(--blue-grey); margin-top:2px;}
+
+  footer{
+    margin-top:22px; font-family:'Space Mono', monospace; font-size:11px;
+    color:#3f537a; line-height:1.6;
+  }
+
+  @media (max-width:640px){
+    .board-head{display:none;}
+    .row{grid-template-columns:1fr; gap:4px; padding:14px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <div class="eyebrow">Field Studies · Team Arrivals</div>
+      <h1>Arrivals <span id="dateLabel">— Jul 8</span></h1>
+    </div>
+    <div class="clock">
+      <span id="clockDate">—</span>
+      <span class="time" id="clockTime">--:--:--</span>
+    </div>
+  </header>
+
+  <div class="section-label">PVD Arrivals</div>
+  <div class="board"><div class="board-head">
+    <div>Flight</div><div>Airport</div><div>Status</div><div>Scheduled</div><div>Est./Actual</div>
+  </div><div id="pvdRows"></div></div>
+
+  <div class="section-label other">Other Arrivals (BOS, etc.)</div>
+  <div class="board"><div class="board-head">
+    <div>Flight</div><div>Airport</div><div>Status</div><div>Scheduled</div><div>Est./Actual</div>
+  </div><div id="otherRows"></div></div>
+
+  <footer id="footerNote">Loading…</footer>
+</div>
+
+<script>
+function updateClock(){
+  const now = new Date();
+  const opts = { timeZone: 'America/New_York' };
+  document.getElementById('clockDate').textContent = now.toLocaleDateString('en-US', {...opts, weekday:'short', month:'short', day:'numeric'});
+  document.getElementById('clockTime').textContent = now.toLocaleTimeString('en-US', {...opts, hour12:false}) + ' ET';
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+function classifyStatus(status){
+  if(!status) return {label:'Scheduled', cls:'status-unknown'};
+  const s = status.toLowerCase();
+  if(s.includes('landed') || s.includes('arrived')) return {label:'Landed', cls:'status-landed'};
+  if(s.includes('delay')) return {label:'Delayed', cls:'status-delayed'};
+  if(s.includes('cancel')) return {label:'Cancelled', cls:'status-delayed'};
+  return {label:'On time', cls:'status-ontime'};
+}
+
+function fmtTime(iso){
+  if(!iso) return '—';
+  try{
+    return new Date(iso).toLocaleTimeString('en-US', { timeZone:'America/New_York', hour:'numeric', minute:'2-digit' });
+  }catch(e){ return '—'; }
+}
+
+function rowHtml(f){
+  const arr = f.arrival || {};
+  const statusInfo = classifyStatus(f.status);
+  const actualOrEst = (arr.actualTime && arr.actualTime.local) || (arr.predictedTime && arr.predictedTime.local) || (arr.runwayTime && arr.runwayTime.local);
+  return `
+    <div class="row">
+      <div><span class="flight-num">${f.flight}</span></div>
+      <div>${f.airport}</div>
+      <div><span class="status-pill ${statusInfo.cls}">${statusInfo.label}</span></div>
+      <div><span class="time-val">${f.scheduled_time}</span></div>
+      <div>${actualOrEst ? `<span class="time-val">${fmtTime(actualOrEst)}</span>` : '<span class="time-est">pending</span>'}</div>
+    </div>`;
+}
+
+async function load(){
+  try{
+    const res = await fetch('data.json?_=' + Date.now());
+    const data = await res.json();
+    const flights = Object.values(data.flights || {});
+    flights.sort((a,b) => a.scheduled_time.localeCompare(b.scheduled_time));
+
+    const pvd = flights.filter(f => f.airport === 'PVD');
+    const other = flights.filter(f => f.airport !== 'PVD');
+
+    document.getElementById('pvdRows').innerHTML = pvd.map(rowHtml).join('') || '<div class="row" style="color:#4c638c">No PVD flights loaded yet</div>';
+    document.getElementById('otherRows').innerHTML = other.map(rowHtml).join('') || '<div class="row" style="color:#4c638c">No other flights loaded yet</div>';
+
+    const gen = data.generated_at ? new Date(data.generated_at).toLocaleTimeString('en-US', {timeZone:'America/New_York', hour:'numeric', minute:'2-digit'}) : '—';
+    document.getElementById('footerNote').textContent = `Last data pull: ${gen} ET · This page checks for new data every 60 seconds · Times shown in Eastern`;
+  }catch(e){
+    document.getElementById('footerNote').textContent = 'Could not load data.json yet — the first automated update may still be running.';
+  }
+}
+
+load();
+setInterval(load, 60 * 1000);
+</script>
+</body>
+</html>
