@@ -1,1 +1,28 @@
+name: Update Flight Data
 
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run fetch script
+        env:
+          AERODATABOX_KEY: ${{ secrets.AERODATABOX_KEY }}
+        run: python3 fetch_flights.py 2026-07-08
+
+      - name: Commit updated data
+        run: |
+          git config user.name "flight-bot"
+          git config user.email "actions@github.com"
+          git add data.json state.json
+          git diff --quiet --cached || git commit -m "Update flight data"
+          git push
