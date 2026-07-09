@@ -70,7 +70,7 @@
       "flight": "AA3771",
       "airport": "PVD",
       "scheduled_time": "17:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "DL113_17:00": {
       "flight": "DL113",
@@ -118,7 +118,7 @@
       "flight": "B61128",
       "airport": "PVD",
       "scheduled_time": "22:51",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "AA2566_22:57": {
       "flight": "AA2566",
@@ -136,10 +136,10 @@
       "flight": "DL2064",
       "airport": "PVD",
       "scheduled_time": "23:57",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     }
   },
-  "generated_at": "2026-07-09T13:26:27.380015-04:00",
+  "generated_at": "2026-07-09T18:46:01.252293-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
