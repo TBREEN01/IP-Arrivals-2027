@@ -34,7 +34,7 @@
       "flight": "AA3453",
       "airport": "PVD",
       "scheduled_time": "13:01",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "UA6262_14:05": {
       "flight": "UA6262",
@@ -88,7 +88,7 @@
       "flight": "UA6122",
       "airport": "PVD",
       "scheduled_time": "18:59",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "TK081_19:55": {
       "flight": "TK081",
@@ -124,7 +124,7 @@
       "flight": "AA2566",
       "airport": "PVD",
       "scheduled_time": "22:57",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "UA6142_23:46": {
       "flight": "UA6142",
@@ -139,7 +139,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-07-10T13:24:01.659669-04:00",
+  "generated_at": "2026-07-10T17:34:39.842865-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
