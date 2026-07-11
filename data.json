@@ -16,7 +16,7 @@
       "flight": "UA6155",
       "airport": "PVD",
       "scheduled_time": "09:44",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "AA5166_10:16": {
       "flight": "AA5166",
@@ -34,7 +34,7 @@
       "flight": "AA3453",
       "airport": "PVD",
       "scheduled_time": "13:01",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA6262_14:05": {
       "flight": "UA6262",
@@ -76,7 +76,7 @@
       "flight": "DL113",
       "airport": "BOS",
       "scheduled_time": "17:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "UA6112_18:59": {
       "flight": "UA6112",
@@ -112,7 +112,7 @@
       "flight": "AA1293",
       "airport": "PVD",
       "scheduled_time": "22:43",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "B61128_22:51": {
       "flight": "B61128",
@@ -124,7 +124,7 @@
       "flight": "AA2566",
       "airport": "PVD",
       "scheduled_time": "22:57",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA6142_23:46": {
       "flight": "UA6142",
@@ -139,7 +139,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-07-10T17:34:39.842865-04:00",
+  "generated_at": "2026-07-11T02:04:16.784569-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
