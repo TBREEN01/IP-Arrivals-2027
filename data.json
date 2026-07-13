@@ -22,7 +22,7 @@
       "flight": "AA5166",
       "airport": "PVD",
       "scheduled_time": "10:16",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "KE091_10:20": {
       "flight": "KE091",
@@ -46,7 +46,7 @@
       "flight": "EK237",
       "airport": "BOS",
       "scheduled_time": "14:10",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "EY7_14:15": {
       "flight": "EY7",
@@ -58,7 +58,7 @@
       "flight": "QR743",
       "airport": "BOS",
       "scheduled_time": "15:15",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL2314_16:29": {
       "flight": "DL2314",
@@ -76,7 +76,7 @@
       "flight": "DL113",
       "airport": "BOS",
       "scheduled_time": "17:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "UA6112_18:59": {
       "flight": "UA6112",
@@ -94,7 +94,7 @@
       "flight": "TK081",
       "airport": "BOS",
       "scheduled_time": "19:55",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL2659_20:09": {
       "flight": "DL2659",
@@ -112,7 +112,7 @@
       "flight": "AA1293",
       "airport": "PVD",
       "scheduled_time": "22:43",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "B61128_22:51": {
       "flight": "B61128",
@@ -130,7 +130,7 @@
       "flight": "UA6142",
       "airport": "PVD",
       "scheduled_time": "23:46",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL2064_23:57": {
       "flight": "DL2064",
@@ -139,7 +139,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-07-13T04:36:54.744492-04:00",
+  "generated_at": "2026-07-13T13:02:16.075889-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
