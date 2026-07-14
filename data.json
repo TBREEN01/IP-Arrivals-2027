@@ -64,7 +64,7 @@
       "flight": "DL2314",
       "airport": "PVD",
       "scheduled_time": "16:29",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "AA3771_17:00": {
       "flight": "AA3771",
@@ -139,7 +139,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-07-13T19:38:46.988957-04:00",
+  "generated_at": "2026-07-14T03:22:30.395911-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
