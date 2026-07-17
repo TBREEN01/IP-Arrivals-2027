@@ -4,73 +4,73 @@
       "flight": "AS536",
       "airport": "BOS",
       "scheduled_time": "07:40",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 405: Not Allowed"
     },
     "UA4599_09:43": {
       "flight": "UA4599",
       "airport": "PVD",
       "scheduled_time": "09:43",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 405: Not Allowed"
     },
     "UA6155_09:44": {
       "flight": "UA6155",
       "airport": "PVD",
       "scheduled_time": "09:44",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 405: Not Allowed"
     },
     "AA5166_10:16": {
       "flight": "AA5166",
       "airport": "PVD",
       "scheduled_time": "10:16",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 405: Not Allowed"
     },
     "KE091_10:20": {
       "flight": "KE091",
       "airport": "BOS",
       "scheduled_time": "10:20",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 405: Not Allowed"
     },
     "AA3453_13:01": {
       "flight": "AA3453",
       "airport": "PVD",
       "scheduled_time": "13:01",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 405: Not Allowed"
     },
     "UA6262_14:05": {
       "flight": "UA6262",
       "airport": "PVD",
       "scheduled_time": "14:05",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 405: Not Allowed"
     },
     "EK237_14:10": {
       "flight": "EK237",
       "airport": "BOS",
       "scheduled_time": "14:10",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 405: Not Allowed"
     },
     "EY7_14:15": {
       "flight": "EY7",
       "airport": "BOS",
       "scheduled_time": "14:15",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 405: Not Allowed"
     },
     "QR743_15:15": {
       "flight": "QR743",
       "airport": "BOS",
       "scheduled_time": "15:15",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 405: Not Allowed"
     },
     "DL2314_16:29": {
       "flight": "DL2314",
       "airport": "PVD",
       "scheduled_time": "16:29",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 405: Not Allowed"
     },
     "AA3771_17:00": {
       "flight": "AA3771",
       "airport": "PVD",
       "scheduled_time": "17:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 405: Not Allowed"
     },
     "DL113_17:00": {
       "flight": "DL113",
@@ -112,7 +112,7 @@
       "flight": "AA1293",
       "airport": "PVD",
       "scheduled_time": "22:43",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "B61128_22:51": {
       "flight": "B61128",
@@ -139,7 +139,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-07-16T16:39:40.507650-04:00",
+  "generated_at": "2026-07-16T20:14:08.815434-04:00",
   "date": "2026-07-08",
-  "calls_made_this_run": 0
+  "calls_made_this_run": 23
 }
