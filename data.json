@@ -94,13 +94,13 @@
       "flight": "TK081",
       "airport": "BOS",
       "scheduled_time": "19:55",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL2659_20:09": {
       "flight": "DL2659",
       "airport": "PVD",
       "scheduled_time": "20:09",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "AA4679_20:34": {
       "flight": "AA4679",
@@ -139,7 +139,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-07-28T12:09:35.994494-04:00",
+  "generated_at": "2026-07-28T16:45:50.682067-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
