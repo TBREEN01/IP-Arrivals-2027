@@ -82,7 +82,7 @@
       "flight": "UA6112",
       "airport": "PVD",
       "scheduled_time": "18:59",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "UA6122_18:59": {
       "flight": "UA6122",
@@ -139,7 +139,7 @@
       "last_error": "HTTP Error 403: Forbidden"
     }
   },
-  "generated_at": "2026-07-31T20:13:20.945304-04:00",
+  "generated_at": "2026-08-01T04:42:27.049773-04:00",
   "date": "2026-07-08",
-  "calls_made_this_run": 0
+  "calls_made_this_run": 23
 }
