@@ -58,7 +58,7 @@
       "flight": "QR743",
       "airport": "BOS",
       "scheduled_time": "15:15",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "DL2314_16:29": {
       "flight": "DL2314",
@@ -76,7 +76,7 @@
       "flight": "DL113",
       "airport": "BOS",
       "scheduled_time": "17:00",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA6112_18:59": {
       "flight": "UA6112",
@@ -139,7 +139,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-08-05T14:09:13.090993-04:00",
+  "generated_at": "2026-08-05T18:31:02.531281-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
