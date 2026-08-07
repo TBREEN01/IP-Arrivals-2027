@@ -22,7 +22,7 @@
       "flight": "AA5166",
       "airport": "PVD",
       "scheduled_time": "10:16",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "KE091_10:20": {
       "flight": "KE091",
@@ -46,7 +46,7 @@
       "flight": "EK237",
       "airport": "BOS",
       "scheduled_time": "14:10",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "EY7_14:15": {
       "flight": "EY7",
@@ -76,13 +76,13 @@
       "flight": "DL113",
       "airport": "BOS",
       "scheduled_time": "17:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "UA6112_18:59": {
       "flight": "UA6112",
       "airport": "PVD",
       "scheduled_time": "18:59",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA6122_18:59": {
       "flight": "UA6122",
@@ -106,7 +106,7 @@
       "flight": "AA4679",
       "airport": "PVD",
       "scheduled_time": "20:34",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "AA1293_22:43": {
       "flight": "AA1293",
@@ -139,7 +139,7 @@
       "last_error": "HTTP Error 403: Forbidden"
     }
   },
-  "generated_at": "2026-08-07T00:15:05.594980-04:00",
+  "generated_at": "2026-08-07T01:54:02.508871-04:00",
   "date": "2026-07-08",
-  "calls_made_this_run": 0
+  "calls_made_this_run": 23
 }
