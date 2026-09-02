@@ -52,7 +52,7 @@
       "flight": "EY7",
       "airport": "BOS",
       "scheduled_time": "14:15",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "QR743_15:15": {
       "flight": "QR743",
@@ -139,7 +139,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-09-02T00:45:40.113973-04:00",
+  "generated_at": "2026-09-02T05:07:26.882763-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
