@@ -136,10 +136,10 @@
       "flight": "DL2064",
       "airport": "PVD",
       "scheduled_time": "23:57",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-09-06T02:03:35.377638-04:00",
+  "generated_at": "2026-09-06T06:52:01.012904-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
