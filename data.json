@@ -46,13 +46,13 @@
       "flight": "EK237",
       "airport": "BOS",
       "scheduled_time": "14:10",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "EY7_14:15": {
       "flight": "EY7",
       "airport": "BOS",
       "scheduled_time": "14:15",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "QR743_15:15": {
       "flight": "QR743",
@@ -70,7 +70,7 @@
       "flight": "AA3771",
       "airport": "PVD",
       "scheduled_time": "17:00",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL113_17:00": {
       "flight": "DL113",
@@ -82,7 +82,7 @@
       "flight": "UA6112",
       "airport": "PVD",
       "scheduled_time": "18:59",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "UA6122_18:59": {
       "flight": "UA6122",
@@ -94,7 +94,7 @@
       "flight": "TK081",
       "airport": "BOS",
       "scheduled_time": "19:55",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL2659_20:09": {
       "flight": "DL2659",
@@ -106,7 +106,7 @@
       "flight": "AA4679",
       "airport": "PVD",
       "scheduled_time": "20:34",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "AA1293_22:43": {
       "flight": "AA1293",
@@ -130,16 +130,16 @@
       "flight": "UA6142",
       "airport": "PVD",
       "scheduled_time": "23:46",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL2064_23:57": {
       "flight": "DL2064",
       "airport": "PVD",
       "scheduled_time": "23:57",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     }
   },
-  "generated_at": "2026-09-07T08:08:11.442497-04:00",
+  "generated_at": "2026-09-07T13:44:44.663920-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
