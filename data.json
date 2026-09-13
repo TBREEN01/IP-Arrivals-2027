@@ -88,7 +88,7 @@
       "flight": "UA6122",
       "airport": "PVD",
       "scheduled_time": "18:59",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "TK081_19:55": {
       "flight": "TK081",
@@ -139,7 +139,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-09-13T06:31:55.237444-04:00",
+  "generated_at": "2026-09-13T10:40:15.982472-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
