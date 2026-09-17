@@ -52,13 +52,13 @@
       "flight": "EY7",
       "airport": "BOS",
       "scheduled_time": "14:15",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "QR743_15:15": {
       "flight": "QR743",
       "airport": "BOS",
       "scheduled_time": "15:15",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "DL2314_16:29": {
       "flight": "DL2314",
@@ -124,7 +124,7 @@
       "flight": "AA2566",
       "airport": "PVD",
       "scheduled_time": "22:57",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "UA6142_23:46": {
       "flight": "UA6142",
@@ -139,7 +139,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-09-17T02:11:53.878790-04:00",
+  "generated_at": "2026-09-17T07:51:38.443712-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
