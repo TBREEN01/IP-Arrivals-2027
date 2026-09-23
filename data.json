@@ -22,7 +22,7 @@
       "flight": "AA5166",
       "airport": "PVD",
       "scheduled_time": "10:16",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "KE091_10:20": {
       "flight": "KE091",
@@ -46,7 +46,7 @@
       "flight": "EK237",
       "airport": "BOS",
       "scheduled_time": "14:10",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "EY7_14:15": {
       "flight": "EY7",
@@ -58,7 +58,7 @@
       "flight": "QR743",
       "airport": "BOS",
       "scheduled_time": "15:15",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "DL2314_16:29": {
       "flight": "DL2314",
@@ -70,7 +70,7 @@
       "flight": "AA3771",
       "airport": "PVD",
       "scheduled_time": "17:00",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL113_17:00": {
       "flight": "DL113",
@@ -88,7 +88,7 @@
       "flight": "UA6122",
       "airport": "PVD",
       "scheduled_time": "18:59",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "TK081_19:55": {
       "flight": "TK081",
@@ -106,7 +106,7 @@
       "flight": "AA4679",
       "airport": "PVD",
       "scheduled_time": "20:34",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "AA1293_22:43": {
       "flight": "AA1293",
@@ -118,7 +118,7 @@
       "flight": "B61128",
       "airport": "PVD",
       "scheduled_time": "22:51",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "AA2566_22:57": {
       "flight": "AA2566",
@@ -136,10 +136,10 @@
       "flight": "DL2064",
       "airport": "PVD",
       "scheduled_time": "23:57",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-09-23T16:18:34.041778-04:00",
+  "generated_at": "2026-09-23T19:00:23.763348-04:00",
   "date": "2026-07-08",
-  "calls_made_this_run": 0
+  "calls_made_this_run": 23
 }
