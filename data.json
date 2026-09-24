@@ -28,7 +28,7 @@
       "flight": "KE091",
       "airport": "BOS",
       "scheduled_time": "10:20",
-      "last_error": "HTTP Error 403: Forbidden"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "AA3453_13:01": {
       "flight": "AA3453",
@@ -139,7 +139,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-09-24T08:12:12.833189-04:00",
+  "generated_at": "2026-09-24T13:19:44.060918-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
