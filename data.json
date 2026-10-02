@@ -69,7 +69,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-01T17:13:19.284946-04:00"
+      "updated_at": "2026-10-02T02:51:36.360442-04:00"
     },
     "UA4599_09:43": {
       "flight": "UA4599",
@@ -161,7 +161,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-01T17:13:19.284946-04:00"
+      "updated_at": "2026-10-02T02:51:36.360442-04:00"
     },
     "AA3453_13:01": {
       "flight": "AA3453",
@@ -185,7 +185,70 @@
       "flight": "EY7",
       "airport": "BOS",
       "scheduled_time": "14:15",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "status": "Arrived",
+      "arrival": {
+        "airport": {
+          "icao": "KBOS",
+          "iata": "BOS",
+          "name": "Boston General Edward Lawrence Logan",
+          "shortName": "General Edward Lawrence Logan",
+          "municipalityName": "Boston",
+          "location": {
+            "lat": 42.3643,
+            "lon": -71.0052
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 18:15Z",
+          "local": "2026-07-08 14:15-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-08 18:03Z",
+          "local": "2026-07-08 14:03-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-08 18:01Z",
+          "local": "2026-07-08 14:01-04:00"
+        },
+        "terminal": "C",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "departure": {
+        "airport": {
+          "icao": "OMAA",
+          "iata": "AUH",
+          "name": "Abu Dhabi Zayed",
+          "shortName": "Zayed",
+          "municipalityName": "Abu Dhabi",
+          "location": {
+            "lat": 24.433,
+            "lon": 54.6511
+          },
+          "countryCode": "AE",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 04:30Z",
+          "local": "2026-07-08 08:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-08 04:30Z",
+          "local": "2026-07-08 08:30+04:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "C1-C14",
+        "gate": "C38",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "updated_at": "2026-10-02T02:51:36.360442-04:00"
     },
     "QR743_15:15": {
       "flight": "QR743",
@@ -256,7 +319,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-01T17:13:19.284946-04:00"
+      "updated_at": "2026-10-01T17:13:19.284946-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL2314_16:29": {
       "flight": "DL2314",
@@ -321,7 +385,73 @@
       "flight": "DL113",
       "airport": "BOS",
       "scheduled_time": "17:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "status": "Arrived",
+      "arrival": {
+        "airport": {
+          "icao": "KBOS",
+          "iata": "BOS",
+          "name": "Boston General Edward Lawrence Logan",
+          "shortName": "General Edward Lawrence Logan",
+          "municipalityName": "Boston",
+          "location": {
+            "lat": 42.3643,
+            "lon": -71.0052
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 21:00Z",
+          "local": "2026-07-08 17:00-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-08 20:19Z",
+          "local": "2026-07-08 16:19-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-08 20:19Z",
+          "local": "2026-07-08 16:19-04:00"
+        },
+        "terminal": "E",
+        "runway": "04R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "departure": {
+        "airport": {
+          "icao": "LIRF",
+          "iata": "FCO",
+          "name": "Rome Leonardo da Vinci\u2013Fiumicino",
+          "shortName": "Leonardo da Vinci\u2013Fiumicino",
+          "municipalityName": "Rome",
+          "location": {
+            "lat": 41.8045,
+            "lon": 12.2508
+          },
+          "countryCode": "IT",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 11:10Z",
+          "local": "2026-07-08 13:10+02:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-08 12:07Z",
+          "local": "2026-07-08 14:07+02:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-08 12:07Z",
+          "local": "2026-07-08 14:07+02:00"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "updated_at": "2026-10-02T02:51:36.360442-04:00"
     },
     "UA6112_18:59": {
       "flight": "UA6112",
@@ -398,7 +528,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-01T17:13:19.284946-04:00"
+      "updated_at": "2026-10-01T17:13:19.284946-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "TK081_19:55": {
       "flight": "TK081",
@@ -467,8 +598,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-01T12:24:10.983030-04:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-10-02T02:51:36.360442-04:00"
     },
     "DL2659_20:09": {
       "flight": "DL2659",
@@ -551,7 +681,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-01T17:13:19.284946-04:00"
+      "updated_at": "2026-10-02T02:51:36.360442-04:00"
     },
     "B61128_22:51": {
       "flight": "B61128",
@@ -707,10 +837,76 @@
       "flight": "DL2064",
       "airport": "PVD",
       "scheduled_time": "23:57",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "status": "Arrived",
+      "arrival": {
+        "airport": {
+          "icao": "KPVD",
+          "iata": "PVD",
+          "name": "Providence Theodore Francis Green State",
+          "shortName": "Theodore Francis Green State",
+          "municipalityName": "Providence",
+          "location": {
+            "lat": 41.7326,
+            "lon": -71.4204
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-09 03:57Z",
+          "local": "2026-07-08 23:57-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-09 03:57Z",
+          "local": "2026-07-08 23:57-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-09 03:57Z",
+          "local": "2026-07-08 23:57-04:00"
+        },
+        "runway": "34",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "departure": {
+        "airport": {
+          "icao": "KATL",
+          "iata": "ATL",
+          "name": "Atlanta Hartsfield Jackson",
+          "shortName": "Hartsfield Jackson",
+          "municipalityName": "Atlanta",
+          "location": {
+            "lat": 33.6367,
+            "lon": -84.4281
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-09 01:27Z",
+          "local": "2026-07-08 21:27-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-09 01:59Z",
+          "local": "2026-07-08 21:59-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-09 01:59Z",
+          "local": "2026-07-08 21:59-04:00"
+        },
+        "terminal": "S",
+        "runway": "27R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "updated_at": "2026-10-02T02:51:36.360442-04:00"
     }
   },
-  "generated_at": "2026-10-01T20:54:23.636337-04:00",
+  "generated_at": "2026-10-02T02:51:36.360442-04:00",
   "date": "2026-07-08",
-  "calls_made_this_run": 0
+  "calls_made_this_run": 23
 }
