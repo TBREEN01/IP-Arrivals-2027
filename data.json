@@ -69,7 +69,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-02T09:43:26.334264-04:00"
+      "updated_at": "2026-10-02T14:44:22.047821-04:00"
     },
     "UA4599_09:43": {
       "flight": "UA4599",
@@ -81,7 +81,7 @@
       "flight": "UA6155",
       "airport": "PVD",
       "scheduled_time": "09:44",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "last_error": "Expecting value: line 1 column 1 (char 0)"
     },
     "AA5166_10:16": {
       "flight": "AA5166",
@@ -247,7 +247,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-02T09:43:26.334264-04:00"
+      "updated_at": "2026-10-02T14:44:22.047821-04:00"
     },
     "EY7_14:15": {
       "flight": "EY7",
@@ -447,8 +447,7 @@
           "Basic"
         ]
       },
-      "updated_at": "2026-10-01T05:04:59.647187-04:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-10-02T14:44:22.047821-04:00"
     },
     "DL113_17:00": {
       "flight": "DL113",
@@ -598,7 +597,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-02T09:43:26.334264-04:00"
+      "updated_at": "2026-10-02T14:44:22.047821-04:00"
     },
     "TK081_19:55": {
       "flight": "TK081",
@@ -680,7 +679,73 @@
       "flight": "AA4679",
       "airport": "PVD",
       "scheduled_time": "20:34",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "status": "Arrived",
+      "arrival": {
+        "airport": {
+          "icao": "KPVD",
+          "iata": "PVD",
+          "name": "Providence Theodore Francis Green State",
+          "shortName": "Theodore Francis Green State",
+          "municipalityName": "Providence",
+          "location": {
+            "lat": 41.7326,
+            "lon": -71.4204
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-09 00:34Z",
+          "local": "2026-07-08 20:34-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-09 01:31Z",
+          "local": "2026-07-08 21:31-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-09 01:31Z",
+          "local": "2026-07-08 21:31-04:00"
+        },
+        "runway": "16",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "departure": {
+        "airport": {
+          "icao": "KDCA",
+          "iata": "DCA",
+          "name": "Washington Ronald Reagan  National",
+          "shortName": "Ronald Reagan  National",
+          "municipalityName": "Washington",
+          "location": {
+            "lat": 38.8521,
+            "lon": -77.0377
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 22:59Z",
+          "local": "2026-07-08 18:59-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-09 00:32Z",
+          "local": "2026-07-08 20:32-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-09 00:32Z",
+          "local": "2026-07-08 20:32-04:00"
+        },
+        "terminal": "2",
+        "runway": "15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "updated_at": "2026-10-02T14:44:22.047821-04:00"
     },
     "AA1293_22:43": {
       "flight": "AA1293",
@@ -901,7 +966,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-02T09:43:26.334264-04:00"
+      "updated_at": "2026-10-02T09:43:26.334264-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL2064_23:57": {
       "flight": "DL2064",
@@ -977,7 +1043,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-10-02T09:43:26.334264-04:00",
+  "generated_at": "2026-10-02T14:44:22.047821-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
