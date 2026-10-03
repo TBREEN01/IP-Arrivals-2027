@@ -69,7 +69,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-03T03:01:40.377149-04:00"
+      "updated_at": "2026-10-03T08:29:46.685910-04:00"
     },
     "UA4599_09:43": {
       "flight": "UA4599",
@@ -161,8 +161,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-02T02:51:36.360442-04:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-10-03T08:29:46.685910-04:00"
     },
     "AA3453_13:01": {
       "flight": "AA3453",
@@ -214,7 +213,8 @@
           "Basic"
         ]
       },
-      "updated_at": "2026-10-03T03:01:40.377149-04:00"
+      "updated_at": "2026-10-03T03:01:40.377149-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA6262_14:05": {
       "flight": "UA6262",
@@ -506,7 +506,72 @@
       "flight": "DL2314",
       "airport": "PVD",
       "scheduled_time": "16:29",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "status": "Arrived",
+      "arrival": {
+        "airport": {
+          "icao": "KPVD",
+          "iata": "PVD",
+          "name": "Providence Theodore Francis Green State",
+          "shortName": "Theodore Francis Green State",
+          "municipalityName": "Providence",
+          "location": {
+            "lat": 41.7326,
+            "lon": -71.4204
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 20:29Z",
+          "local": "2026-07-08 16:29-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-08 20:09Z",
+          "local": "2026-07-08 16:09-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-08 20:09Z",
+          "local": "2026-07-08 16:09-04:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "departure": {
+        "airport": {
+          "icao": "KATL",
+          "iata": "ATL",
+          "name": "Atlanta Hartsfield Jackson",
+          "shortName": "Hartsfield Jackson",
+          "municipalityName": "Atlanta",
+          "location": {
+            "lat": 33.6367,
+            "lon": -84.4281
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 18:02Z",
+          "local": "2026-07-08 14:02-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-08 18:06Z",
+          "local": "2026-07-08 14:06-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-08 18:06Z",
+          "local": "2026-07-08 14:06-04:00"
+        },
+        "terminal": "S",
+        "runway": "27R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "updated_at": "2026-10-03T08:29:46.685910-04:00"
     },
     "AA3771_17:00": {
       "flight": "AA3771",
@@ -631,7 +696,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-03T03:01:40.377149-04:00"
+      "updated_at": "2026-10-03T03:01:40.377149-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA6112_18:59": {
       "flight": "UA6112",
@@ -849,7 +915,73 @@
       "flight": "DL2659",
       "airport": "PVD",
       "scheduled_time": "20:09",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "status": "Arrived",
+      "arrival": {
+        "airport": {
+          "icao": "KPVD",
+          "iata": "PVD",
+          "name": "Providence Theodore Francis Green State",
+          "shortName": "Theodore Francis Green State",
+          "municipalityName": "Providence",
+          "location": {
+            "lat": 41.7326,
+            "lon": -71.4204
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-09 00:09Z",
+          "local": "2026-07-08 20:09-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-09 01:38Z",
+          "local": "2026-07-08 21:38-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-09 01:37Z",
+          "local": "2026-07-08 21:37-04:00"
+        },
+        "runway": "16",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "departure": {
+        "airport": {
+          "icao": "KATL",
+          "iata": "ATL",
+          "name": "Atlanta Hartsfield Jackson",
+          "shortName": "Hartsfield Jackson",
+          "municipalityName": "Atlanta",
+          "location": {
+            "lat": 33.6367,
+            "lon": -84.4281
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 21:40Z",
+          "local": "2026-07-08 17:40-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-08 23:39Z",
+          "local": "2026-07-08 19:39-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-08 23:39Z",
+          "local": "2026-07-08 19:39-04:00"
+        },
+        "terminal": "S",
+        "runway": "27R",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "updated_at": "2026-10-03T08:29:46.685910-04:00"
     },
     "AA4679_20:34": {
       "flight": "AA4679",
@@ -921,7 +1053,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-03T03:01:40.377149-04:00"
+      "updated_at": "2026-10-03T08:29:46.685910-04:00"
     },
     "AA1293_22:43": {
       "flight": "AA1293",
@@ -1219,7 +1351,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-10-03T03:01:40.377149-04:00",
+  "generated_at": "2026-10-03T08:29:46.685910-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
