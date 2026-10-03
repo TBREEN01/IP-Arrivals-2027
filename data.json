@@ -69,7 +69,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-02T14:44:22.047821-04:00"
+      "updated_at": "2026-10-02T21:27:20.933269-04:00"
     },
     "UA4599_09:43": {
       "flight": "UA4599",
@@ -81,7 +81,7 @@
       "flight": "UA6155",
       "airport": "PVD",
       "scheduled_time": "09:44",
-      "last_error": "Expecting value: line 1 column 1 (char 0)"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "AA5166_10:16": {
       "flight": "AA5166",
@@ -168,13 +168,122 @@
       "flight": "AA3453",
       "airport": "PVD",
       "scheduled_time": "13:01",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "status": "CanceledUncertain",
+      "arrival": {
+        "airport": {
+          "icao": "KPVD",
+          "iata": "PVD",
+          "name": "Providence Theodore Francis Green State",
+          "shortName": "Theodore Francis Green State",
+          "municipalityName": "Providence",
+          "location": {
+            "lat": 41.7326,
+            "lon": -71.4204
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 17:01Z",
+          "local": "2026-07-08 13:01-04:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "departure": {
+        "airport": {
+          "icao": "KORD",
+          "iata": "ORD",
+          "name": "Chicago O'Hare",
+          "shortName": "O'Hare",
+          "municipalityName": "Chicago",
+          "location": {
+            "lat": 41.9786,
+            "lon": -87.9048
+          },
+          "countryCode": "US",
+          "timeZone": "America/Chicago"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 14:30Z",
+          "local": "2026-07-08 09:30-05:00"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "updated_at": "2026-10-02T21:27:20.933269-04:00"
     },
     "UA6262_14:05": {
       "flight": "UA6262",
       "airport": "PVD",
       "scheduled_time": "14:05",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "status": "Arrived",
+      "arrival": {
+        "airport": {
+          "icao": "KPVD",
+          "iata": "PVD",
+          "name": "Providence Theodore Francis Green State",
+          "shortName": "Theodore Francis Green State",
+          "municipalityName": "Providence",
+          "location": {
+            "lat": 41.7326,
+            "lon": -71.4204
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 18:05Z",
+          "local": "2026-07-08 14:05-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-08 17:45Z",
+          "local": "2026-07-08 13:45-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-08 17:45Z",
+          "local": "2026-07-08 13:45-04:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "departure": {
+        "airport": {
+          "icao": "KIAD",
+          "iata": "IAD",
+          "name": "Washington Dulles",
+          "shortName": "Dulles",
+          "municipalityName": "Washington",
+          "location": {
+            "lat": 38.9445,
+            "lon": -77.4558
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 16:35Z",
+          "local": "2026-07-08 12:35-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-08 16:42Z",
+          "local": "2026-07-08 12:42-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-08 16:42Z",
+          "local": "2026-07-08 12:42-04:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "updated_at": "2026-10-02T21:27:20.933269-04:00"
     },
     "EK237_14:10": {
       "flight": "EK237",
@@ -247,7 +356,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-02T14:44:22.047821-04:00"
+      "updated_at": "2026-10-02T21:27:20.933269-04:00"
     },
     "EY7_14:15": {
       "flight": "EY7",
@@ -316,8 +425,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-02T02:51:36.360442-04:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-10-02T21:27:20.933269-04:00"
     },
     "QR743_15:15": {
       "flight": "QR743",
@@ -447,7 +555,8 @@
           "Basic"
         ]
       },
-      "updated_at": "2026-10-02T14:44:22.047821-04:00"
+      "updated_at": "2026-10-02T14:44:22.047821-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL113_17:00": {
       "flight": "DL113",
@@ -526,7 +635,70 @@
       "flight": "UA6112",
       "airport": "PVD",
       "scheduled_time": "18:59",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "status": "Arrived",
+      "arrival": {
+        "airport": {
+          "icao": "KPVD",
+          "iata": "PVD",
+          "name": "Providence Theodore Francis Green State",
+          "shortName": "Theodore Francis Green State",
+          "municipalityName": "Providence",
+          "location": {
+            "lat": 41.7326,
+            "lon": -71.4204
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 22:59Z",
+          "local": "2026-07-08 18:59-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-08 22:35Z",
+          "local": "2026-07-08 18:35-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-08 22:35Z",
+          "local": "2026-07-08 18:35-04:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "departure": {
+        "airport": {
+          "icao": "KIAD",
+          "iata": "IAD",
+          "name": "Washington Dulles",
+          "shortName": "Dulles",
+          "municipalityName": "Washington",
+          "location": {
+            "lat": 38.9445,
+            "lon": -77.4558
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 21:30Z",
+          "local": "2026-07-08 17:30-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-08 21:30Z",
+          "local": "2026-07-08 17:30-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-08 21:30Z",
+          "local": "2026-07-08 17:30-04:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "updated_at": "2026-10-02T21:27:20.933269-04:00"
     },
     "UA6122_18:59": {
       "flight": "UA6122",
@@ -597,7 +769,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-02T14:44:22.047821-04:00"
+      "updated_at": "2026-10-02T14:44:22.047821-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "TK081_19:55": {
       "flight": "TK081",
@@ -745,7 +918,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-02T14:44:22.047821-04:00"
+      "updated_at": "2026-10-02T21:27:20.933269-04:00"
     },
     "AA1293_22:43": {
       "flight": "AA1293",
@@ -966,8 +1139,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-02T09:43:26.334264-04:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-10-02T21:27:20.933269-04:00"
     },
     "DL2064_23:57": {
       "flight": "DL2064",
@@ -1043,7 +1215,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-10-02T18:37:22.581323-04:00",
+  "generated_at": "2026-10-02T21:27:20.933269-04:00",
   "date": "2026-07-08",
-  "calls_made_this_run": 0
+  "calls_made_this_run": 23
 }
