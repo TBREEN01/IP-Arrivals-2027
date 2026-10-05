@@ -69,13 +69,76 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-04T14:10:59.891312-04:00"
+      "updated_at": "2026-10-04T20:11:08.655390-04:00"
     },
     "UA4599_09:43": {
       "flight": "UA4599",
       "airport": "PVD",
       "scheduled_time": "09:43",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "status": "Arrived",
+      "arrival": {
+        "airport": {
+          "icao": "KPVD",
+          "iata": "PVD",
+          "name": "Providence Theodore Francis Green State",
+          "shortName": "Theodore Francis Green State",
+          "municipalityName": "Providence",
+          "location": {
+            "lat": 41.7326,
+            "lon": -71.4204
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 13:43Z",
+          "local": "2026-07-08 09:43-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-08 13:37Z",
+          "local": "2026-07-08 09:37-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-08 13:37Z",
+          "local": "2026-07-08 09:37-04:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "departure": {
+        "airport": {
+          "icao": "KIAD",
+          "iata": "IAD",
+          "name": "Washington Dulles",
+          "shortName": "Dulles",
+          "municipalityName": "Washington",
+          "location": {
+            "lat": 38.9445,
+            "lon": -77.4558
+          },
+          "countryCode": "US",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2026-07-08 12:15Z",
+          "local": "2026-07-08 08:15-04:00"
+        },
+        "revisedTime": {
+          "utc": "2026-07-08 12:32Z",
+          "local": "2026-07-08 08:32-04:00"
+        },
+        "runwayTime": {
+          "utc": "2026-07-08 12:32Z",
+          "local": "2026-07-08 08:32-04:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "updated_at": "2026-10-04T20:11:08.655390-04:00"
     },
     "UA6155_09:44": {
       "flight": "UA6155",
@@ -152,8 +215,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-03T12:40:09.591925-04:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-10-04T20:11:08.655390-04:00"
     },
     "KE091_10:20": {
       "flight": "KE091",
@@ -350,7 +412,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-04T14:10:59.891312-04:00"
+      "updated_at": "2026-10-04T14:10:59.891312-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "EK237_14:10": {
       "flight": "EK237",
@@ -493,8 +556,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-02T21:27:20.933269-04:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-10-04T20:11:08.655390-04:00"
     },
     "QR743_15:15": {
       "flight": "QR743",
@@ -690,7 +752,8 @@
           "Basic"
         ]
       },
-      "updated_at": "2026-10-04T14:10:59.891312-04:00"
+      "updated_at": "2026-10-04T14:10:59.891312-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL113_17:00": {
       "flight": "DL113",
@@ -762,8 +825,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-03T18:26:09.349677-04:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-10-04T20:11:08.655390-04:00"
     },
     "UA6112_18:59": {
       "flight": "UA6112",
@@ -974,7 +1036,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-04T14:10:59.891312-04:00"
+      "updated_at": "2026-10-04T14:10:59.891312-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL2659_20:09": {
       "flight": "DL2659",
@@ -1046,8 +1109,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-04T04:18:05.837940-04:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-10-04T20:11:08.655390-04:00"
     },
     "AA4679_20:34": {
       "flight": "AA4679",
@@ -1335,7 +1397,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-04T14:10:59.891312-04:00"
+      "updated_at": "2026-10-04T14:10:59.891312-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA6142_23:46": {
       "flight": "UA6142",
@@ -1405,8 +1468,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-03T18:26:09.349677-04:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-10-04T20:11:08.655390-04:00"
     },
     "DL2064_23:57": {
       "flight": "DL2064",
@@ -1482,7 +1544,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-10-04T17:38:26.628062-04:00",
+  "generated_at": "2026-10-04T20:11:08.655390-04:00",
   "date": "2026-07-08",
-  "calls_made_this_run": 0
+  "calls_made_this_run": 23
 }
