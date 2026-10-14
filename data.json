@@ -69,7 +69,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-13T16:36:32.395766-04:00"
+      "updated_at": "2026-10-14T00:25:42.997372-04:00"
     },
     "UA4599_09:43": {
       "flight": "UA4599",
@@ -216,7 +216,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-13T16:36:32.395766-04:00"
+      "updated_at": "2026-10-13T16:36:32.395766-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "KE091_10:20": {
       "flight": "KE091",
@@ -487,7 +488,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-13T16:36:32.395766-04:00"
+      "updated_at": "2026-10-13T16:36:32.395766-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "EY7_14:15": {
       "flight": "EY7",
@@ -753,7 +755,8 @@
           "Basic"
         ]
       },
-      "updated_at": "2026-10-13T16:36:32.395766-04:00"
+      "updated_at": "2026-10-13T16:36:32.395766-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL113_17:00": {
       "flight": "DL113",
@@ -967,7 +970,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-13T16:36:32.395766-04:00"
+      "updated_at": "2026-10-13T16:36:32.395766-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "TK081_19:55": {
       "flight": "TK081",
@@ -1109,8 +1113,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-13T10:59:46.298199-04:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-10-14T00:25:42.997372-04:00"
     },
     "AA4679_20:34": {
       "flight": "AA4679",
@@ -1254,7 +1257,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-13T16:36:32.395766-04:00"
+      "updated_at": "2026-10-13T16:36:32.395766-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "B61128_22:51": {
       "flight": "B61128",
@@ -1541,10 +1545,11 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-13T16:36:32.395766-04:00"
+      "updated_at": "2026-10-13T16:36:32.395766-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-10-13T19:53:44.532713-04:00",
+  "generated_at": "2026-10-14T00:25:42.997372-04:00",
   "date": "2026-07-08",
-  "calls_made_this_run": 0
+  "calls_made_this_run": 23
 }
