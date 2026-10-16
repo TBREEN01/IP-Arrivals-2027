@@ -69,7 +69,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-16T00:54:39.582326-04:00"
+      "updated_at": "2026-10-16T05:35:49.342344-04:00"
     },
     "UA4599_09:43": {
       "flight": "UA4599",
@@ -145,7 +145,7 @@
       "flight": "UA6155",
       "airport": "PVD",
       "scheduled_time": "09:44",
-      "last_error": "Expecting value: line 1 column 1 (char 0)"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "AA5166_10:16": {
       "flight": "AA5166",
@@ -344,7 +344,8 @@
           "Basic"
         ]
       },
-      "updated_at": "2026-10-16T00:54:39.582326-04:00"
+      "updated_at": "2026-10-16T00:54:39.582326-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA6262_14:05": {
       "flight": "UA6262",
@@ -413,7 +414,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-16T00:54:39.582326-04:00"
+      "updated_at": "2026-10-16T00:54:39.582326-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "EK237_14:10": {
       "flight": "EK237",
@@ -700,7 +702,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-16T00:54:39.582326-04:00"
+      "updated_at": "2026-10-16T00:54:39.582326-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "AA3771_17:00": {
       "flight": "AA3771",
@@ -1037,7 +1040,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-16T00:54:39.582326-04:00"
+      "updated_at": "2026-10-16T05:35:49.342344-04:00"
     },
     "DL2659_20:09": {
       "flight": "DL2659",
@@ -1327,7 +1330,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-16T00:54:39.582326-04:00"
+      "updated_at": "2026-10-16T00:54:39.582326-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "AA2566_22:57": {
       "flight": "AA2566",
@@ -1545,7 +1549,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-10-16T00:54:39.582326-04:00",
+  "generated_at": "2026-10-16T05:35:49.342344-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
