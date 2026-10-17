@@ -69,7 +69,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-17T13:11:16.308107-04:00"
+      "updated_at": "2026-10-17T17:43:48.228631-04:00"
     },
     "UA4599_09:43": {
       "flight": "UA4599",
@@ -291,7 +291,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-17T13:11:16.308107-04:00"
+      "updated_at": "2026-10-17T17:43:48.228631-04:00"
     },
     "AA3453_13:01": {
       "flight": "AA3453",
@@ -343,7 +343,8 @@
           "Basic"
         ]
       },
-      "updated_at": "2026-10-17T13:11:16.308107-04:00"
+      "updated_at": "2026-10-17T13:11:16.308107-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA6262_14:05": {
       "flight": "UA6262",
@@ -412,7 +413,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-17T13:11:16.308107-04:00"
+      "updated_at": "2026-10-17T13:11:16.308107-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "EK237_14:10": {
       "flight": "EK237",
@@ -555,8 +557,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-17T02:12:40.891956-04:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-10-17T17:43:48.228631-04:00"
     },
     "QR743_15:15": {
       "flight": "QR743",
@@ -699,7 +700,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-17T13:11:16.308107-04:00"
+      "updated_at": "2026-10-17T13:11:16.308107-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "AA3771_17:00": {
       "flight": "AA3771",
@@ -751,7 +753,8 @@
           "Basic"
         ]
       },
-      "updated_at": "2026-10-17T13:11:16.308107-04:00"
+      "updated_at": "2026-10-17T13:11:16.308107-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL113_17:00": {
       "flight": "DL113",
@@ -823,8 +826,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-17T06:56:45.664184-04:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-10-17T17:43:48.228631-04:00"
     },
     "UA6112_18:59": {
       "flight": "UA6112",
@@ -1035,7 +1037,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-17T13:11:16.308107-04:00"
+      "updated_at": "2026-10-17T17:43:48.228631-04:00"
     },
     "DL2659_20:09": {
       "flight": "DL2659",
@@ -1107,7 +1109,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-17T13:11:16.308107-04:00"
+      "updated_at": "2026-10-17T13:11:16.308107-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "AA4679_20:34": {
       "flight": "AA4679",
@@ -1179,7 +1182,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-17T13:11:16.308107-04:00"
+      "updated_at": "2026-10-17T13:11:16.308107-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "AA1293_22:43": {
       "flight": "AA1293",
@@ -1323,8 +1327,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-16T10:15:06.017874-04:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-10-17T17:43:48.228631-04:00"
     },
     "AA2566_22:57": {
       "flight": "AA2566",
@@ -1395,7 +1398,7 @@
         ]
       },
       "updated_at": "2026-10-15T15:02:23.850582-04:00",
-      "last_error": "The read operation timed out"
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA6142_23:46": {
       "flight": "UA6142",
@@ -1465,7 +1468,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-17T13:11:16.308107-04:00"
+      "updated_at": "2026-10-17T13:11:16.308107-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL2064_23:57": {
       "flight": "DL2064",
@@ -1537,10 +1541,11 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-17T13:11:16.308107-04:00"
+      "updated_at": "2026-10-17T13:11:16.308107-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-10-17T15:30:13.748290-04:00",
+  "generated_at": "2026-10-17T17:43:48.228631-04:00",
   "date": "2026-07-08",
-  "calls_made_this_run": 0
+  "calls_made_this_run": 23
 }
