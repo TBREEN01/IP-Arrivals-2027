@@ -69,7 +69,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-21T12:05:44.850781-04:00"
+      "updated_at": "2026-10-21T12:05:44.850781-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA4599_09:43": {
       "flight": "UA4599",
@@ -216,7 +217,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-10-21T12:05:44.850781-04:00"
+      "updated_at": "2026-10-21T12:05:44.850781-04:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "KE091_10:20": {
       "flight": "KE091",
@@ -1549,7 +1551,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-10-21T12:05:44.850781-04:00",
+  "generated_at": "2026-10-21T16:07:28.418555-04:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
