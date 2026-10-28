@@ -1551,7 +1551,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-10-27T19:15:23.345995-04:00",
+  "generated_at": "2026-10-27T22:24:10.441215-04:00",
   "date": "2026-07-08",
-  "calls_made_this_run": 0
+  "calls_made_this_run": 23
 }
