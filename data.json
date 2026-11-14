@@ -69,7 +69,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-14T09:03:12.968771-05:00"
+      "updated_at": "2026-11-14T14:07:09.987053-05:00"
     },
     "UA4599_09:43": {
       "flight": "UA4599",
@@ -138,7 +138,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-14T09:03:12.968771-05:00"
+      "updated_at": "2026-11-14T09:03:12.968771-05:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA6155_09:44": {
       "flight": "UA6155",
@@ -215,7 +216,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-14T09:03:12.968771-05:00"
+      "updated_at": "2026-11-14T09:03:12.968771-05:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "KE091_10:20": {
       "flight": "KE091",
@@ -412,7 +414,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-14T09:03:12.968771-05:00"
+      "updated_at": "2026-11-14T09:03:12.968771-05:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "EK237_14:10": {
       "flight": "EK237",
@@ -627,7 +630,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-14T09:03:12.968771-05:00"
+      "updated_at": "2026-11-14T09:03:12.968771-05:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL2314_16:29": {
       "flight": "DL2314",
@@ -698,8 +702,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-13T07:07:53.005580-05:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-11-14T14:07:09.987053-05:00"
     },
     "AA3771_17:00": {
       "flight": "AA3771",
@@ -894,7 +897,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-14T09:03:12.968771-05:00"
+      "updated_at": "2026-11-14T09:03:12.968771-05:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA6122_18:59": {
       "flight": "UA6122",
@@ -1108,7 +1112,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-14T09:03:12.968771-05:00"
+      "updated_at": "2026-11-14T09:03:12.968771-05:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "AA4679_20:34": {
       "flight": "AA4679",
@@ -1180,7 +1185,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-14T09:03:12.968771-05:00"
+      "updated_at": "2026-11-14T14:07:09.987053-05:00"
     },
     "AA1293_22:43": {
       "flight": "AA1293",
@@ -1395,7 +1400,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-14T09:03:12.968771-05:00"
+      "updated_at": "2026-11-14T09:03:12.968771-05:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA6142_23:46": {
       "flight": "UA6142",
@@ -1465,7 +1471,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-14T09:03:12.968771-05:00"
+      "updated_at": "2026-11-14T09:03:12.968771-05:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "DL2064_23:57": {
       "flight": "DL2064",
@@ -1541,7 +1548,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-11-14T09:03:12.968771-05:00",
+  "generated_at": "2026-11-14T14:07:09.987053-05:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
