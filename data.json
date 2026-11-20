@@ -69,7 +69,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-19T18:43:52.784822-05:00"
+      "updated_at": "2026-11-19T23:23:43.751615-05:00"
     },
     "UA4599_09:43": {
       "flight": "UA4599",
@@ -138,8 +138,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-19T03:00:55.778761-05:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-11-19T23:23:43.751615-05:00"
     },
     "UA6155_09:44": {
       "flight": "UA6155",
@@ -344,8 +343,7 @@
           "Basic"
         ]
       },
-      "updated_at": "2026-11-19T03:00:55.778761-05:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-11-19T23:23:43.751615-05:00"
     },
     "UA6262_14:05": {
       "flight": "UA6262",
@@ -630,8 +628,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-19T12:20:24.338679-05:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-11-19T23:23:43.751615-05:00"
     },
     "DL2314_16:29": {
       "flight": "DL2314",
@@ -970,8 +967,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-17T14:48:44.420887-05:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-11-19T23:23:43.751615-05:00"
     },
     "TK081_19:55": {
       "flight": "TK081",
@@ -1186,8 +1182,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-19T12:20:24.338679-05:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-11-19T23:23:43.751615-05:00"
     },
     "AA1293_22:43": {
       "flight": "AA1293",
@@ -1546,11 +1541,10 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-19T12:20:24.338679-05:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-11-19T23:23:43.751615-05:00"
     }
   },
-  "generated_at": "2026-11-19T18:43:52.784822-05:00",
+  "generated_at": "2026-11-19T23:23:43.751615-05:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
