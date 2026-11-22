@@ -69,7 +69,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-22T12:55:03.951361-05:00"
+      "updated_at": "2026-11-22T18:28:06.681919-05:00"
     },
     "UA4599_09:43": {
       "flight": "UA4599",
@@ -216,8 +216,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-18T13:47:00.081080-05:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-11-22T18:28:06.681919-05:00"
     },
     "KE091_10:20": {
       "flight": "KE091",
@@ -558,8 +557,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-21T21:34:35.845811-05:00",
-      "last_error": "HTTP Error 429: Too Many Requests"
+      "updated_at": "2026-11-22T18:28:06.681919-05:00"
     },
     "QR743_15:15": {
       "flight": "QR743",
@@ -1040,7 +1038,7 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-22T12:55:03.951361-05:00"
+      "updated_at": "2026-11-22T18:28:06.681919-05:00"
     },
     "DL2659_20:09": {
       "flight": "DL2659",
@@ -1549,7 +1547,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-11-22T12:55:03.951361-05:00",
+  "generated_at": "2026-11-22T18:28:06.681919-05:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
