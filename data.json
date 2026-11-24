@@ -69,7 +69,8 @@
           "Live"
         ]
       },
-      "updated_at": "2026-11-24T06:46:07.959058-05:00"
+      "updated_at": "2026-11-24T06:46:07.959058-05:00",
+      "last_error": "HTTP Error 429: Too Many Requests"
     },
     "UA4599_09:43": {
       "flight": "UA4599",
@@ -1550,7 +1551,7 @@
       "last_error": "HTTP Error 429: Too Many Requests"
     }
   },
-  "generated_at": "2026-11-24T06:46:07.959058-05:00",
+  "generated_at": "2026-11-24T16:34:38.889458-05:00",
   "date": "2026-07-08",
   "calls_made_this_run": 23
 }
